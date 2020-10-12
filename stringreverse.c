@@ -15,7 +15,13 @@ int main()
                 i++;
         }
 
-        i = i - 2;
+        if (i % 2) {
+               i = i - 1;
+        }
+        else {
+                i = i - 2;
+        }
+
         strlen = i / 2;
 
         while(strlen)
